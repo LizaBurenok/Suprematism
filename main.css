@@ -1,0 +1,146 @@
+body{
+  width: 1920px;
+  padding: 0;
+  margin: 0;
+}
+
+.sections {
+  display: flex;
+  justify-content: space-between;
+  transform: translateX(25%);
+}
+
+.section_one img{
+  top: 5%;
+  left: -20%;
+}
+
+.section_two img{
+  top: 45%;
+  left: 25%;
+  z-index: -1;
+}
+
+.section_three img{
+  right: -20%;
+  opacity: .7;
+}
+.section_one img,
+.section_two img,
+.section_three img {
+  position: absolute;
+}
+
+.section_one_triang {
+	border-left: 400px solid transparent;
+	border-right: 400px solid transparent;
+	border-bottom: 150px solid #1750A5;
+  width: 0;
+	height: 0;
+  z-index: 1;
+  transform: rotate(-115deg);
+  position: relative;
+  top: 70%;
+  right: 70%;
+}
+
+.section_one_rectang1{
+  width: 600px;
+	height: 160px;
+	background: #D6A90C;
+  transform: rotate(-16.71deg);
+  position: relative;
+  top: 55%;
+  right: 40%;
+}
+
+.section_one_rectang2{
+  width: 150px;
+	height: 800px;
+	background: #000;
+  transform: rotate(-25.24deg);
+  position: relative;
+  right: 10%;
+}
+.section_one_cube{
+  width: 67px;
+  height: 70px;
+  background: #000;
+  position: relative;
+  right: 32%;
+  bottom: 8%;
+}
+
+.section_two_cube1 {
+  width: 260px;
+  height: 260px;
+  background-color: #000;
+  position: relative;
+  top: 35%;
+  right: 50%;
+}
+
+.section_two_cube2 {
+  width: 90px;
+  height: 75px;
+  background: #A46318;
+  position: relative;
+  top: 53%;
+  right: 56%;
+}
+
+.section_two_rectang1 {
+  width: 109px;
+  height: 196px;
+  background: #E6C13E;
+  position: relative;
+  top: 30%;
+  right: 90%;
+}
+
+.section_two_rectang2{
+  width: 295px;
+  height: 52.24px;
+  background: #000000;
+  transform: matrix(0.67, -0.74, -0.74, -0.67, 0, 0);
+  position: relative;
+  top: 60%;
+}
+
+.section_two_circle{
+  width: 100px;
+  height: 100px;
+  border: 15px solid #A46318;
+  border-radius: 100%;
+  position: relative;
+  top: 10%;
+}
+
+.section_three_circle{
+  width: 430px;
+  height: 430px;
+  background: #F2831C;
+  border-radius: 100%;
+  position: relative;
+  top: 5%;
+  left: 40%;
+
+}
+
+.section_three_cube{
+  width: 253px;
+  height: 253px;
+  background: #4D4A4A;
+  position: relative;
+  bottom: 24%;
+  left: 51%;
+}
+
+.section_three_rectang{
+width: 0;
+height: 0;
+border-left: 393px solid transparent;
+border-right: 393px solid transparent;
+border-bottom: 165px solid #8B0A0A;
+transform: rotate(-133.22deg);
+}
