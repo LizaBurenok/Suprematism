@@ -25,17 +25,17 @@ body{
 
 .buttons #targsBtn01{
   right: 2%;
-  top: 5%;
+  top: 45%;
 }
 
 .buttons #targsBtn02{
   right: 2%;
-  top: 15%;
+  top: 55%;
 }
 
 .buttons #targsBtn03{
   right: 2%;
-  top: 25%;
+  top: 65%;
 }
 
 #targsBtn01:hover{
