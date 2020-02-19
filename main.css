@@ -9,6 +9,55 @@ body{
   justify-content: space-between;
   transform: translateX(25%);
 }
+/**ADDED BUTTONS**/
+#targsBtn01,
+#targsBtn02,
+#targsBtn03 {
+  border-radius: 100%;
+  border: 7px solid #FFB135;
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.buttons #targsBtn01{
+  right: 2%;
+  top: 5%;
+}
+
+.buttons #targsBtn02{
+  right: 2%;
+  top: 15%;
+}
+
+.buttons #targsBtn03{
+  right: 2%;
+  top: 25%;
+}
+
+#targsBtn01:hover{
+  cursor: pointer;
+  font-size: 35px;
+  color: red;
+  text-decoration: underline;
+}
+
+#targsBtn02:hover{
+  cursor: pointer;
+  font-size: 35px;
+  color: red;
+  text-decoration: underline;
+}
+
+#targsBtn03:hover{
+  cursor: pointer;
+  font-size: 35px;
+  color: red;
+  text-decoration: underline;
+}
 
 .section_one img{
   top: 5%;
